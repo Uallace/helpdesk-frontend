@@ -2,9 +2,11 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  template:`<button mat-raised-button color="primary">Primary</button>
-      <router-outlet></router-outlet>`
+  templateUrl: 'app.component.html'
 })
+
 export class AppComponent {
   title = 'helpdesk-frontend';
 }
+
+
