@@ -20,7 +20,6 @@ export class TecnicoUpdateComponent implements OnInit{
     email: '',
     senha: '',
     perfis: [],
-    dataCriacao: ''
   }
 
   nome: FormControl = new FormControl(null, Validators.minLength(3));

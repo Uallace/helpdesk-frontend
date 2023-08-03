@@ -18,8 +18,7 @@ export class TecnicoCreateComponent {
     cpf: '',
     email: '',
     senha: '',
-    perfis: [],
-    dataCriacao: ''
+    perfis: []
   }
 
   nome: FormControl = new FormControl(null, Validators.minLength(3));
