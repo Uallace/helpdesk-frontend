@@ -22,3 +22,10 @@ table {
     text-align: center;
     margin-bottom: 2rem;
   }
+  .edit {
+    color: rgb(74, 118, 213);
+  }
+
+  .delete {
+    color: rgb(247, 23, 23);
+  }
