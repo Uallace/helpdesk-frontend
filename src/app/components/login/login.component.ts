@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 import { FormControl, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
 import { ToastrService } from 'ngx-toastr';
-import { Credenciais } from 'src/app/models/Credenciais';
+import { Credenciais } from 'src/app/models/credenciais';
 
 @Component({
   selector: 'app-login',
