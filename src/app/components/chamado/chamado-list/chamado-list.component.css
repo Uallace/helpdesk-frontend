@@ -1,0 +1,37 @@
+.container {
+    width: 90%;
+    margin: auto;
+  }
+
+table {
+    width: 100%;
+    margin-top: 1rem;
+  }
+  
+  mat-form-field {
+    width: 100%;
+  }
+ 
+  button {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  h1 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .edit {
+    color: rgb(74, 118, 213);
+  }
+
+  .delete {
+    color: rgb(247, 23, 23);
+  }
+
+  mat-radio-group {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+  }
